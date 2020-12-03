@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.jpg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 40px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding:5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+
+}
+
+
+.title{
+	position: absolute;
+	top: 30%;
+	left:40%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color:#fff;
+	font-size:70px;
+}
+.button{
+    position: absolute;
+	top: 40%;
+	left:15%;
+}
+.btn{
+	border: 1px solid white;
+	padding:10px 30px;
+	color:#fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	font-size: 13px;
+}
+.btn:hover{
+  background-color: #fff;
+	color:#000;
+}
+/*.box{
+	width:300px;
+	padding: 40px;
+	position: absolute;
+	top: 55%;
+	left:80%;
+	transform: translate(-40%,-80%);
+	background: transparent;
+	text-align: center;
+}
+ .box h1{
+ 	color: white;
+ 	text-transform: uppercase;
+ 	font-weight: 500;
+ }
+ .box input[type = "text"],.box input[type = "password"]{
+ 	border:0;
+ 	background: none;
+ 	display: block;
+ 	margin: 20px auto;
+ 	text-align: center;
+ 	border: 2px solid #3498db;
+ 	 padding: 14px 10px;
+ 	 width: 200px;
+ 	 outline: none;
+ 	 color: white;
+ 	 border-radius: 24px;
+ 	 transition: 0.25s ease;
+
+ }
+ .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+ 	width: 280px;
+ 	border-color: #2ecc71;
+ }
+ .box input[type = "submit"]{
+ 		border:0;
+ 	background: none;
+ 	display: block;
+ 	margin: 20px auto;
+ 	text-align: center;
+ 	border: 2px solid #2ecc71;
+ 	 padding: 14px 40px;
+ 	 outline: none;
+ 	 color: white;
+ 	 border-radius: 24px;
+ 	 transition: 0.25s ease;
+ 	 cursor: pointer;
+ }
+ .box input[type = "submit"]:hover{
+ 	background: #2ecc71;
+ }*/
+ .clr{
+	border: 1px solid white;
+	padding:10px 30px;
+	color:#fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+		}
